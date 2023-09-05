@@ -31,7 +31,6 @@ You will need the following requirements to run the project:
 - Python (version 3.x)
 - Selenium (version 4.11.x)
 - Pandas
-- Chrome WebDriver
 
 You can install the required Python packages using the following command:
 

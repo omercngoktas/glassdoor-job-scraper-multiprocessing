@@ -48,14 +48,16 @@ pip install selenium pandas
 
 2. Navigate to the project directory:
    ```bash
-   cd glassdoor_multiprocessing
+   cd glassdoor-job-scraper-multiprocessing
    ```
 
 3. Modify the `main.py` file to set the cities and job positions you're interested in.
 
 4. Run the code:
    ```bash
-   python main.py
+   python retrieve_links.py
+   python merge_links.py
+   python get_jobs.py
    ```
 
 ## Usage

@@ -34,9 +34,9 @@ You will need the following requirements to run the project:
 - Chrome WebDriver
 
 You can install the required Python packages using the following command:
-```bash
-pip install selenium pandas
-```
+   ```bash
+   pip install selenium pandas
+   ```
 
 
 ### Installation

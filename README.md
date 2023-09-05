@@ -26,7 +26,7 @@ pip install selenium pandas
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/omercngoktas/glassdoor_multiprocessing.git
+   git clone https://github.com/omercngoktas/glassdoor-job-scraper-multiprocessing.git
    ```
 
 2. Navigate to the project directory:

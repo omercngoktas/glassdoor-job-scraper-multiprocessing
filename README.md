@@ -40,6 +40,10 @@ You can install the required Python packages using the following command:
 pip install selenium pandas
 ```
 
+```bash
+pip install selenium pandas
+```
+
 
 ### Installation
 

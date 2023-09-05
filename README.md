@@ -6,7 +6,6 @@ This project contains a Python application used to scrape job listing URLs from 
 # Glassdoor Job Scraper Output
 
 This project generates an output file, `output.csv`, which contains job listing data collected from Glassdoor. The following are the columns you can expect to find in the `output.csv` file along with their descriptions:
-
 - **Company Name**: The name of the company that posted the job listing.
 - **Rating**: The rating of the company as available on Glassdoor, if provided.
 - **Location**: The location or city where the job is located.
@@ -19,10 +18,7 @@ This project generates an output file, `output.csv`, which contains job listing 
 - **Industry**: The specific industry of the hiring company, if available.
 - **Revenue**: The revenue range of the hiring company, if available.
 - **Keyword**: The keyword or search term used to retrieve the job listing.
-
 Please note that the availability of certain information, such as company rating or estimated salary, may vary depending on the job listing on Glassdoor. This data is collected directly from the Glassdoor website during the scraping process.
-
-If you have any questions or need further assistance regarding the data columns or usage of this project, please feel free to reach out.
 
 ## Getting Started
 
@@ -52,14 +48,16 @@ pip install selenium pandas
 
 2. Navigate to the project directory:
    ```bash
-   cd glassdoor_multiprocessing
+   cd glassdoor-job-scraper-multiprocessing
    ```
 
 3. Modify the `main.py` file to set the cities and job positions you're interested in.
 
 4. Run the code:
    ```bash
-   python main.py
+   python retrieve_links.py
+   python merge_links.py
+   python get_jobs.py
    ```
 
 ## Usage
